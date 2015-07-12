@@ -5,8 +5,6 @@
         <title>Craigslist Visualizer</title>
         <meta name="description" content="Displays words in order of popularity from Craigslist search"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
         <link rel="stylesheet" type="text/css" href="<?= STYLES_URL.'master.css'; ?>"/>
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
