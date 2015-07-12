@@ -19,6 +19,7 @@
             <ol id='main_list'></ol>
         </main>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
         <script type="text/javascript">var WDP = {};WDP.baseUrl = <?= BASE_URL; ?></script>
         <script type="text/javascript" src="<?= SCRIPTS_URL.'app.min.js'; ?>"></script>
     </body>
