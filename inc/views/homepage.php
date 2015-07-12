@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Craigslist Visualizer</title>
+        <title>Wordpop</title>
         <meta name="description" content="Displays words in order of popularity from Craigslist search"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" type="text/css" href="<?= STYLES_URL.'master.css'; ?>"/>
