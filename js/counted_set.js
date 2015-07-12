@@ -1,8 +1,8 @@
-CLV.countedSet = function(){
+WDP.countedSet = function(){
 	this.collection = {};
 };
 
-CLV.countedSet.prototype.add = function(item) {
+WDP.countedSet.prototype.add = function(item) {
 	item = item.toLowerCase();
 	if(this.shouldExcludeItem(item)){
 		return;
@@ -18,15 +18,15 @@ CLV.countedSet.prototype.add = function(item) {
 /*
 * Function returning true or false whether item should be added to the set
 */
-CLV.countedSet.prototype.shouldExcludeItem = function(item){
+WDP.countedSet.prototype.shouldExcludeItem = function(item){
 	return !item.match(/[a-zA-z0-9]/);
 }
 
-CLV.countedSet.prototype.countForObject = function(itemName) {
+WDP.countedSet.prototype.countForObject = function(itemName) {
 	return this.collection[itemName] ? this.collection[itemName] : 0;
 };
 
-CLV.countedSet.prototype.getCollection = function() {
+WDP.countedSet.prototype.getCollection = function() {
 	return this.collection;
 };
 
@@ -34,7 +34,7 @@ CLV.countedSet.prototype.getCollection = function() {
 * Returns an array sorted in descending order of name and amount
 * i.e. [{name: first_thing, amount: 20}, {name: second_thing, amount: 19}];
 */
-CLV.countedSet.prototype.getSortedCollection = function() {
+WDP.countedSet.prototype.getSortedCollection = function() {
 	var collection = this.collection; //because can't reference this inside function
 	var sortable = [];
 	for (var key in collection){

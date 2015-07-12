@@ -1,10 +1,10 @@
 $.ajax({
-	url: CLV.baseUrl + 'ajax_responder.php',
+	url: WDP.baseUrl + 'ajax_responder.php',
 	type: 'GET',
 	dataType: 'html'
 })
 .done(function(searchResults) {
-	var set = new CLV.countedSet();
+	var set = new WDP.countedSet();
 	$(searchResults).find('.hdrlnk').each(function(index) {
 		var resultsLink = $(this);
 		var title = resultsLink.text();

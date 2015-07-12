@@ -1,6 +1,6 @@
-#Craigslist Visualizer
+#Wordpop
 
-This project is meant to scrape Craigslist search results and display most used words from listings.
+Search Craigslist and display the popularity of words in your search results.
 
 ##Dependencies
 
@@ -16,6 +16,6 @@ This project is meant to scrape Craigslist search results and display most used 
 
 ##License
 
-Craigslist Visualizer is released under the MIT License. See license.txt for more details.
+Wordpop is released under the MIT License. See license.txt for more details.
 
 This project has no affiliation with Craigslist.
