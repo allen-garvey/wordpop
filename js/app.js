@@ -3,6 +3,7 @@ $.ajax({
 	type: 'GET',
 	dataType: 'html'
 })
+
 .done(function(searchResults) {
 	var set = new WDP.countedSet();
 	$(searchResults).find('.hdrlnk').each(function(index) {
@@ -14,11 +15,11 @@ $.ajax({
 	});
 	var main_list = $('#main_list');
 	var sortedCollection = set.getSortedCollection();
-	console.log(sortedCollection);
+	// console.log(sortedCollection);
 	sortedCollection.map(function(elem) {
 		main_list.append("<li>" + elem.name + ' ('+ elem.amount + ")</li>");
 	});
-
+	WDP.displayViz(sortedCollection);
 })
 .fail(function() {
 	console.log("error");

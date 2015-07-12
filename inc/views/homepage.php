@@ -16,6 +16,8 @@
         </header>
         
         <main class='container'>
+            <div id='viz-wrapper'></div>
+
             <ol id='main_list'></ol>
         </main>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

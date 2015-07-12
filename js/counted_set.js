@@ -1,3 +1,5 @@
+"use strict";
+
 WDP.countedSet = function(){
 	this.collection = {};
 };

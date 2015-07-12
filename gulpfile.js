@@ -7,7 +7,7 @@ var rename = require('gulp-rename');
 var maps = require('gulp-sourcemaps');
 
 gulp.task('concatScripts', function(){
-	return gulp.src(['js/counted_set.js', 'js/app.js'])
+	return gulp.src(['js/counted_set.js', 'js/data_viz.js', 'js/app.js'])
 		.pipe(maps.init())
 		.pipe(concat('app.js'))
 		.pipe(maps.write('./'))
