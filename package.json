@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/allen-garvey/h-news.git"
+    "url": "https://github.com/allen-garvey/wordpop.git"
   },
   "author": "Allen Garvey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/allen-garvey/h-news/issues"
+    "url": "https://github.com/allen-garvey/wordpop/issues"
   },
-  "homepage": "https://github.com/allen-garvey/h-news",
+  "homepage": "https://github.com/allen-garvey/wordpop",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
