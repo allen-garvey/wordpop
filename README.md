@@ -2,6 +2,8 @@
 
 Search Craigslist and display the popularity of words in your search results.
 
+This version of Wordpop is currently on hiatus. For the most up-to-date version, written in node.js, please see [github.com/allen-garvey/wordpop-node](http://www.github.com/allen-garvey/wordpop-node)
+
 ##Dependencies
 
 * PHP 5.4.* or later
